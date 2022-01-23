@@ -209,7 +209,8 @@ public final class DataFilter {
      * @return false if it is a special page
      */
     static boolean checkSpecialPage(final String[] columns) {
-        throw new RuntimeException("To be implemented");
+        System.println(columns);
+        return true;
     }
 
     /**

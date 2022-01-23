@@ -26,6 +26,12 @@ import org.junit.jupiter.api.Test;
 class DataFilterTest {
 
     @Test
+    void cheekyTest(){
+        test = new String[]{"hello"};
+        DataFilter.checkSpecialPage(test);
+    }
+
+    @Test
     void sortRecords() {
         TreeMap<String, Integer> records = new TreeMap<>();
         records.put("a", 1);
