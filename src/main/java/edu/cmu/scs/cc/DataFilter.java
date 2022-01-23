@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.Map.Entry;
 import java.util.TreeMap;
 
+
 /**
  * <p>Implement a data filter using test-driven development (TDD).</p>
  *
@@ -210,7 +211,10 @@ public final class DataFilter {
      * @return false if it is a special page
      */
     static boolean checkSpecialPage(final String[] columns) {
-
+        // Essentially if it is inside the prefix blacklist, return False
+        if (StringUtils.startsWithAny(columns, PREFIX_BLACKLIST)){
+            return false;
+        };
         return true;
     }
 

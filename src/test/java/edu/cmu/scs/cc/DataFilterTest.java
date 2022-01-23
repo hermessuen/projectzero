@@ -26,7 +26,7 @@ import org.junit.jupiter.api.Test;
 class DataFilterTest {
 
     @Test
-    void cheekyTest(){
+    void Test(){
         String[] test = new String[]{"hello"};
         DataFilter.checkSpecialPage(test);
         java.lang.System.out.println("Something");
