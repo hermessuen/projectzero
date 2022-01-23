@@ -27,7 +27,7 @@ class DataFilterTest {
 
     @Test
     void cheekyTest(){
-        test = new String[]{"hello"};
+        String[] test = new String[]{"hello"};
         DataFilter.checkSpecialPage(test);
     }
 

@@ -1,5 +1,6 @@
 package edu.cmu.scs.cc;
 
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Map.Entry;
@@ -209,7 +210,7 @@ public final class DataFilter {
      * @return false if it is a special page
      */
     static boolean checkSpecialPage(final String[] columns) {
-        System.println(columns);
+        java.lang.System.out.println(Arrays.toString(columns));
         return true;
     }
 
