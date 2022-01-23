@@ -210,7 +210,7 @@ public final class DataFilter {
      * @return false if it is a special page
      */
     static boolean checkSpecialPage(final String[] columns) {
-        java.lang.System.out.println(Arrays.toString(columns));
+
         return true;
     }
 
